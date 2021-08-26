@@ -1,5 +1,6 @@
 import Input from "./components/Input";
 import Button from "./components/Button";
+import Display  from "./components/Display";
 
 function App() {
   return (
