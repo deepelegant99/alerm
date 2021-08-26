@@ -1,15 +1,14 @@
-
 import Input from "./components/Input";
 import Button from "./components/Button";
-import Display from "./components/Display.js"
-
 
 function App() {
   return (
     <div className="container">
       <div className="selector">
-        <Input />
-        <Display/>
+
+        {/* <Input /> */}
+        <Display />
+        
       </div>
       <div className="display">
         <button className="countdown">37 mins</button>
