@@ -57,3 +57,16 @@ select{
   width: 400px;
   height: 200px;
 }
+
+
+.inputBlt{
+  width: 250px;
+  height: 45px;
+  background-color: green;
+}
+
+Select{
+    width: 250px;
+    height: 45px;
+    background-color: green;
+}
