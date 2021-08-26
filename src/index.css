@@ -29,3 +29,31 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+
+button{
+  /*position: absolute;*/
+  background-color: red;
+  width: 109px;
+  height: 113px;
+  left: 781px;
+  top: 414px;
+  border-radius: 50%;
+  border:black 2px solid;
+
+}
+
+button.countdown{
+  /*position: absolute;*/
+  background-color: blue;
+  width: 109px;
+  height: 113px;
+  left: 527px;
+  top: 300px;
+
+}
+
+select{
+  background-color: chartreuse;
+  width: 400px;
+  height: 200px;
+}
