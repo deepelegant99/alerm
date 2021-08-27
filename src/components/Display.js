@@ -32,7 +32,15 @@ const theme = createTheme({
   },
 });*/
 
+const useStyles = makeStyles((theme) => ({
+  Select:{
+    width: '250px',
+    height: '50px',
+    backgroundColor:'white'
+  }
 
+
+}))
 
 const Display =(theme)=>{
 
@@ -43,7 +51,7 @@ const Display =(theme)=>{
           labelId="demo-simple-select-filled-label"
           id="demo-simple-select-filled"
           
-          className={theme.className}
+          className={theme.Select}
         >
           <MenuItem value=""  className={theme.primary}>
             <em>None</em>
