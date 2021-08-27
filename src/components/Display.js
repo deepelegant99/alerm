@@ -7,7 +7,7 @@ import TextField from '@material-ui/core/TextField';
 import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
 
-const theme = createTheme({
+/*const theme = createTheme({
   palette: {
     primary: {
       light: '#757ce8',
@@ -22,25 +22,19 @@ const theme = createTheme({
       contrastText: '#000',
     },
   },
-});
-
-
-/*const theme = createTheme({
-  palette: {
-    primary: blue,
-
-  },
 });*/
 
-const useStyles = makeStyles((theme) => ({
-  Select:{
-    width: '250px',
-    height: '50px',
-    backgroundColor:'white'
-  }
 
 
-}))
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#4caf50',
+      
+    },
+  },
+});
+
 
 const Display =(theme)=>{
 
