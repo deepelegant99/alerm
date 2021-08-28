@@ -7,6 +7,8 @@ import TextField from '@material-ui/core/TextField';
 import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
 
+import { StylesProvider } from "@material-ui/core/styles";
+
 /*const theme = createTheme({
   palette: {
     primary: {
@@ -26,26 +28,18 @@ import Select from '@material-ui/core/Select';
 
 
 
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#4caf50',
-      
-    },
-  },
-});
-
 
 const Display =(theme)=>{
 
 
     return(
+      <StylesProvider injectFirst>
+
 
         <Select
           labelId="demo-simple-select-filled-label"
           id="demo-simple-select-filled"
           
-          className={theme.Select}
         >
           <MenuItem value=""  className={theme.primary}>
             <em>None</em>
@@ -54,6 +48,9 @@ const Display =(theme)=>{
           <MenuItem value={20}>Twenty</MenuItem>
           <MenuItem value={30}>Thirty</MenuItem>
         </Select>
+
+
+        </StylesProvider>
 
     );
 };
